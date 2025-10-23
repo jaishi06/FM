@@ -1,6 +1,6 @@
-# FM
-
 EXP NO: 4	GENERATION AND DETECTION OF FM
+
+JAISHIKAA (212224060103)
 
 
 AIM:
@@ -66,41 +66,47 @@ MODEL GRAPH:
 
 Program
 ```
-Am=2.17;
-fm=274;
-fs=27400;
+Am=3.7;
+fm=312;
+Ac=7.4;
+fc=3120;
+fs=31200;
+b=3.8
 t=0:1/fs:2/fm;
 m=Am*cos(2*3.14*fm*t);
 subplot(3,1,1);
 plot(t,m);
-Ac=3.17;
-fc=2740;
 c=Ac*cos(2*3.14*fc*t);
 subplot(3,1,2);
 plot(t,c);
-B=3;
-efm=Ac*cos((2*3.14*fc*t)+B*sin(2*3.14*fm*t));
+s=Ac*cos((2*3.14*fc*t)+b*sin(2*3.14*fm*t));
 subplot(3,1,3);
-plot(t,efm);
+plot(t,s);
 ```
 
 Output Waveform
 
-<img width="540" height="929" alt="image" src="https://github.com/user-attachments/assets/639dd39f-d66d-431f-b8b0-5caed9105cce" />
+<img width="1825" height="996" alt="Screenshot 2025-10-17 214115" src="https://github.com/user-attachments/assets/cd65ff18-f0d3-487c-8b16-47d5c670007c" />
+
 
 
 Tabulation
 
-<img width="628" height="954" alt="image" src="https://github.com/user-attachments/assets/8acdd954-0fe6-4062-8e8f-f17e1f21175c" />
+![WhatsApp Image 2025-10-17 at 22 14 11_294048e8](https://github.com/user-attachments/assets/b741e447-f339-4277-aa86-94a29af73d50)
 
 
 Calculation
 
-Frequency Deviation Practical = 833.4 
+![WhatsApp Image 2025-10-17 at 21 53 14_0ec291ec](https://github.com/user-attachments/assets/e048fdb0-3670-4313-bb8e-2563d5cdceb3)
 
-Modulation Index Practical	= 3.16
 
-Modulation Index Theoretical	= 3
+Frequency Deviation Practical = 1185.48
+
+Modulation Index Practical	= 3.7
+
+Modulation Index Theoretical	= 3.8
+
+
 
 RESULT:
 
