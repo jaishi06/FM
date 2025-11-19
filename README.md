@@ -92,13 +92,11 @@ Output Waveform
 
 Tabulation
 
-![WhatsApp Image 2025-10-17 at 22 14 11_294048e8](https://github.com/user-attachments/assets/b741e447-f339-4277-aa86-94a29af73d50)
-
+![fm new](https://github.com/user-attachments/assets/d9924770-cbd9-4e54-a601-3d85daa2b5dd)
 
 Calculation
 
-![WhatsApp Image 2025-10-17 at 21 53 14_0ec291ec](https://github.com/user-attachments/assets/e048fdb0-3670-4313-bb8e-2563d5cdceb3)
-
+![fm calculation](https://github.com/user-attachments/assets/2a57229e-0d17-4b22-81ee-b5da9508cab5)
 
 Frequency Deviation Practical = 1185.48
 
